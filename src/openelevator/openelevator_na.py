@@ -27,7 +27,7 @@ import aioredis
 
 
 class OpenElevator():
-    def __init__(self, initialized=False,cache=True):
+    def __init__(self, initialized=False,cache=False):
         '''
         OpenElevator class for accessing elevation
         data programmatically
